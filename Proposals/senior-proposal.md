@@ -1,44 +1,43 @@
 # Seniors Spring Intensive Deliverable Proposal 
 
-## TODO: copy this file, fill it out, and push it up to your project's repo.
-
 Dates 3/16-3/25
 
-**My Name:**
+**Zurich Okoren**
 
 
-**Project Name:** 
+**Project Name: Tree of Life** 
 
 
-**Is your project New or Old?**
-
-
-**Is your project Solo or Team?**
+It is and **OLD** project that I will work **SOLO** on.
 
 
 ## Description
 
-**Write a paragraph summary of the current status of your project, what you hope to achieve during the intensive, how and why**
+For this project I will be improving upon my "Tree of Life" project, where I optimized the runtime complexity of rendering and re-rendering Conway's Game of life.
 
-## Objective 1: say your objective here, you must have at least three objectives to get credit for the intensive… accomplishing objective should be done by soley you
+## Objective 1: Update only the effected quadrants based on board state
 
-**Why do you want to meet this objective? How will it improve your project?** 
+Currently, the underlying tree data structure that holds the information about the board state is destroyed and rebuilt in its entirety. However, it is possible to refactor it so that instead of creating and destroying the entire tree, it only modifies the quadrants that hold the relevant information of the cells that need to be re-rendered.
 
-**How will you demonstrate completion of your objective?** 
+In order to demonstrate completion, the tree-of life must behave exactly as it does when users are seeing it in action on the web, but the data structure has a few additional methods that keep track of and modify relevant quadrants.
 
-## Objective 2: ... say your objective to accomplish here …
-**Why do you want to meet this objective? How will it improve your project?** 
+## Objective 2: Add Buttons to enhance User Experience
 
-**How will you demonstrate completion of your objective?** 
+Currently, there are no elements in place that let the user interact with the visualizer. In order to make it more attractive, I want to add some form of interaction with users in order to make it more engaging for the users.
 
-## Objective 3: ... say your objective to accomplish here …
-**Why do you want to meet this objective? How will it improve your project?** 
+To complete this task, I will add a pause, play, refresh and frame by frame buttons.
 
-**How will you demonstrate completion of your objective?** 
+## Objective 3: Improve UI
+
+The project is devoid of any elements of conventional and attractive UI, so I hope to improve the basic CSS that is in place to make a more visually appealing interface.
+
+Completion is indicated by the presence of Design Elements such as a visual hierarchy and a pleasing color palette.
 
 ## Stretch goals (optional):
 
 **What stretch goals do you have for your project?**
+
+LOL! Nope!
 
 ## Evaluation
 
@@ -65,6 +64,6 @@ Dates 3/16-3/25
 ### Sign off
 
 **Student Name:**                
-> Name / Date
+> Zurich Okoren / 3-16-2020
 **Make School Advisor Name**
 > TBD

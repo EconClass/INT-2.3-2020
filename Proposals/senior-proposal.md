@@ -64,6 +64,11 @@ LOL! Nope!
 ### Sign off
 
 **Student Name:**                
-> Zurich Okoren / 3-16-2020
-**Make School Advisor Name**
-> TBD
+> Zurich Okoren
+>
+> 3/16/2020
+
+**Make School Advisor**
+> Dani Roxberry
+>
+> 3/16/2020
